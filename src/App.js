@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from './components/Hero'
 import Header from './Header';
+import Proyectos from './components/Proyectos';
 
 
 function App() {
@@ -8,8 +9,9 @@ function App() {
     <>
     <Header/>
     <Hero/>
-
-
+       <div className="row">
+        <Proyectos />
+      </div>
     </>
   );
 }
