@@ -1,0 +1,18 @@
+nav ul li {
+  list-style-type: none;
+  font-weight: 700;
+}
+
+nav ul {
+  height: 100%;
+}
+
+.imglogo{
+  width: 250px;
+  height: 125px;
+  background-image: url(./img/logo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+

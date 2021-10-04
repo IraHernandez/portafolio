@@ -1,0 +1,22 @@
+.hero {
+  height: 400px;
+}
+
+.columna {
+  height: 500px;
+}
+
+.containerButton {
+  width: 40%;
+}
+.columImage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.columImage img{
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+
+}
