@@ -12,18 +12,22 @@ const Proyectos = () => {
 
         <Campo
           title="People Development Platform"
-          page=""
+          page="https://hungry-minsky-892ecf.netlify.app/"
           imagePort={pdp}
+          messagebutton="ver en la web"
         />
         <Campo
           title="Card validation"
-          page="https://www.google.com"
+          page="https://github.com/IraHernandez/BOG002-card-validation"
           imagePort={card}
+          messagebutton="ver código"
         />
         <Campo
           title="Ricky and Morty"
-          page="https://www.facebook.com"
+          page="https://nataliagaravito.github.io/BOG002-data-lovers/"
           imagePort={ricky}
+          messagebutton="ver en la web"
+
         />
       </div>
 

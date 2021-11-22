@@ -1,7 +1,8 @@
 import React from 'react'
 import image from "../img/p.d.p.jpg"
+import "./Campo.css"
 
-const Campo = ({ title, page, imagePort }) => {
+const Campo = ({ title, page, imagePort, messagebutton}) => {
   return (
     <div>
        <section className="container mt-4 fieldProyect">
@@ -14,8 +15,8 @@ const Campo = ({ title, page, imagePort }) => {
               y planear su carrera dentro la compañía.
             </p>
             <button className="btn btn-dark">
-              <a href={page} target="_blank">
-                Ver en la web
+              <a className="white" href={page} target="_blank">
+              {messagebutton}
               </a>
             </button>
           </div>

@@ -1,7 +1,3 @@
-.proyectos {
-  /* font-size: 20px; */
-  margin-block-start: 2rem !important;
-}
 
 .fieldProyect {
   border-bottom: 1.5px solid #000000;
@@ -14,3 +10,4 @@
 .columnaProyect {
   padding: 0;
 }
+

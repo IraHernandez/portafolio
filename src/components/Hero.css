@@ -18,5 +18,9 @@
   width: 60%;
   height: 60%;
   object-fit: contain;
-
+}
+.button{
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
